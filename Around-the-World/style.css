@@ -1,0 +1,139 @@
+@import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    background-image:url(background.png);
+    background-size: cover;
+}
+
+header h1, header h2 {
+    text-shadow: 0x 0x 5px fff;
+}
+
+header, .summary, .preamble, .explanation, .benefits, footer, .requirements, .design-selection, .design-archives, .zen-resources {
+    position: absolute;
+}
+
+.page-wrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.extra1 {
+    position: fixed;
+    top: 25vh;
+    left: 45%;
+    width: 300px;
+    height: 235px;
+    background-image:url(plane.png);
+    background-repeat: none;    
+}
+.extra2 {
+    background-image:url(compass.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width:300px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+header{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    top: 400px;
+    left: 25px;
+    background-image:url(passport.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.summary {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    background-color: red;
+    top: 600px;
+    right: 0px;
+}
+
+.preamble {
+    width: 450px;
+    height: 400px;
+    background-color: pink;
+    top: 800px;
+    left: 0px;
+}
+
+.explanation {
+    top: 1200px;
+    right: 50px;
+    background-color: tan;
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+}
+
+.benefits {
+    top: 1400px;
+    left: 50px;
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    padding:24px;
+}
+
+.requirements {
+    top:1800px;
+    right: 0px;
+    width: 700px;
+    height: 700px;
+    padding: 50px;
+    background-color: palegreen;
+}
+
+footer {
+    top: 1800px;
+    left: 0px;
+    width: 400px;
+    height: 100px;
+    background-color: beige;
+    padding: 25px;
+}
+
+.design-selection {
+    top: 2100px;
+    left: 0px;
+    height: 300px;
+    width: 400px;
+    background-color: coral;
+    padding: 25px;
+}
+
+.design-archives {
+    top: 2500px;
+    left: 0px;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    padding: 25px;
+}
+.zen-resources {
+    top: 2600px;
+    right: 50px;
+    background-color: yellow;
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+}
+
+
+    
+
+
+
+
